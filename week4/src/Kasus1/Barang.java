@@ -11,11 +11,11 @@ public class Barang {
 	tambahStok(stk);
 	}
 	
-	public void tambahStok(int st) {
-		this.stok = stok + st;
+	public void tambahStok(int st) {			//method tambah stok
+		this.stok = stok + st;					
 	}
 	
-	public int getStok() {
-		return stok;
+	public int getStok() {						//ambil nilai stok
+		return stok;			
 	}
 }

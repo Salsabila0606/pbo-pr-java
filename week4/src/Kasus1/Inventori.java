@@ -10,17 +10,17 @@ public class Inventori {
 	}
 	
 	void showBarang() {
-	System.out.println(barangs[0].nama_barang + "(" + barangs[0].getStok() + ")"); 
+	System.out.println(barangs[0].nama_barang + "(" + barangs[0].getStok() + ")"); 			//ubah ke getStok()
 	System.out.println(barangs[1].nama_barang + "(" + barangs[1].getStok() + ")");
 	}
 	
 	void pengadaan() {
 		initBarang();
-		barangs[0].tambahStok(20); //modul penambahan b0
-//		barangs[1].tambahStok(20); //modul penambahan b1 (coba)
+		barangs[0].tambahStok(20); 	//modul penambahan b0
+//		barangs[1].tambahStok(20); 	//modul penambahan b1 (coba)
 //		barangs[0].stok() += 20;
-//		barangs[0].stok() -= 30; //Bisa juga dikurangi dong?
-//		barangs[0].stok() *= 30; //dikali juga bisa dong??
+//		barangs[0].stok() -= 30; 	//Bisa juga dikurangi dong?
+//		barangs[0].stok() *= 30;	//dikali juga bisa dong??
 		showBarang();
 	}
 			
